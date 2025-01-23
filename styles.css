@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background-color: #FDFCDC; 
+}
+
+div {
+    background-color: #FED9B7;
+    width: 80%;
+    margin-bottom: 2rem;
+    border-radius: 12px; 
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+
+
+.contenedorPeliculas{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.pelicula{
+    background-color: #F7A58F;
+}
+
+.peliculas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: #333;
+    font-size: 2.5rem; 
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem; 
+    text-align: center;
+}
+
+h3 {
+    color: #555;
+    font-size: 1.6rem; 
+    text-align: center;
+}
+
+p, span {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.8; 
+    margin: 0.5rem 0;
+}
+
+ul {
+    list-style: circle;
+    margin-left: 1.5rem;
+    font-size: 1.2rem; 
+}
+
+.contacto span {
+    display: block; 
+    margin-top: 0.5rem;
+    font-size: 1.2rem; 
+    font-weight: bold;
+}
